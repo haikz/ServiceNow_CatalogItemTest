@@ -9,8 +9,7 @@
         <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
         <delivery_plan_script/>
         <delivery_time>1970-01-03 00:00:00</delivery_time>
-        <description><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit <strong>anim id est laborum</strong>.</p>
-<p>Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris. Integer in mauris eu nibh euismod gravida. Duis ac tellus et risus vulputate vehicula. </p>]]></description>
+        <description><![CDATA[<p>Genre of <a title="Rock music" href="https://en.wikipedia.org/wiki/Rock_music" rel="nofollow">rock music</a><sup id="cite_ref-3"><a href="https://en.wikipedia.org/wiki/Heavy_metal_music#cite_note-3" rel="nofollow">[3]</a></sup> that developed in the late 1960s and early 1970s, largely in the <a title="United Kingdom" href="https://en.wikipedia.org/wiki/United_Kingdom" rel="nofollow">United Kingdom</a> and the <a title="United States" href="https://en.wikipedia.org/wiki/United_States" rel="nofollow">United States</a>.<sup id="cite_ref-4"><a href="https://en.wikipedia.org/wiki/Heavy_metal_music#cite_note-4" rel="nofollow">[4]</a></sup> With roots in <a title="Blues rock" href="https://en.wikipedia.org/wiki/Blues_rock" rel="nofollow">blues rock</a>, <a title="Psychedelic rock" href="https://en.wikipedia.org/wiki/Psychedelic_rock" rel="nofollow">psychedelic rock</a>, and <a title="Acid rock" href="https://en.wikipedia.org/wiki/Acid_rock" rel="nofollow">acid rock</a>,<sup id="cite_ref-fast_5-0"><a href="https://en.wikipedia.org/wiki/Heavy_metal_music#cite_note-fast-5" rel="nofollow">[5]</a></sup> the bands that created heavy metal developed a thick, massive sound, characterized by highly amplified <a title="Distortion (music)" href="https://en.wikipedia.org/wiki/Distortion_%28music%29" rel="nofollow">distortion</a>, extended <a title="Guitar solo" href="https://en.wikipedia.org/wiki/Guitar_solo" rel="nofollow">guitar solos</a>, emphatic beats, and overall loudness. The genre&#39;s lyrics and performance styles are sometimes associated with <a title="Aggression" href="https://en.wikipedia.org/wiki/Aggression" rel="nofollow">aggression</a> and <a title="Machismo" href="https://en.wikipedia.org/wiki/Machismo" rel="nofollow">machismo</a>.<sup id="cite_ref-fast_5-1"><a href="https://en.wikipedia.org/wiki/Heavy_metal_music#cite_note-fast-5" rel="nofollow">[5]</a></sup></p>]]></description>
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
         <flow_designer_flow/>
@@ -27,7 +26,7 @@
         <mobile_picture/>
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
-        <name>CheckoutPageTest</name>
+        <name>Need more metal</name>
         <no_attachment_v2>false</no_attachment_v2>
         <no_cart>false</no_cart>
         <no_cart_v2>false</no_cart_v2>
@@ -59,14 +58,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-27 13:31:46</sys_created_on>
         <sys_id>341e7714db97001088282bfa4b961918</sys_id>
-        <sys_mod_count>10</sys_mod_count>
-        <sys_name>CheckoutPageTest</sys_name>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>Need more metal</sys_name>
         <sys_package display_value="CatalogItemstest" source="x_428232_catalogit">c27173d4db57001088282bfa4b961934</sys_package>
         <sys_policy/>
         <sys_scope display_value="CatalogItemstest">c27173d4db57001088282bfa4b961934</sys_scope>
         <sys_update_name>sc_cat_item_341e7714db97001088282bfa4b961918</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-27 14:27:38</sys_updated_on>
+        <sys_updated_on>2020-02-28 07:37:41</sys_updated_on>
         <template/>
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>

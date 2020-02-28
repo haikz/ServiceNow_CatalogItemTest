@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new">
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
-        <attributes/>
-        <cat_item display_value="CheckoutPageTest">341e7714db97001088282bfa4b961918</cat_item>
+        <attributes>max_length=5</attributes>
+        <cat_item display_value="Need more metal">341e7714db97001088282bfa4b961918</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
@@ -21,7 +21,8 @@
         <field/>
         <global>false</global>
         <help_tag>More information</help_tag>
-        <help_text>Special input with lattin letters validation regex</help_text>
+        <help_text>Special input with lattin letters validation regex&#13;
+Input is limited to 5 letters with max_length variable attribute</help_text>
         <include_none>false</include_none>
         <instructions/>
         <layout>normal</layout>
@@ -37,7 +38,7 @@
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>why_do_you_need_this</name>
-        <order/>
+        <order>100</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <question_text>Why do you need this</question_text>
@@ -51,22 +52,22 @@
         <reference_qual_condition/>
         <scale_max>5</scale_max>
         <scale_min>0</scale_min>
-        <show_help>false</show_help>
-        <show_help_on_load>false</show_help_on_load>
+        <show_help>true</show_help>
+        <show_help_on_load>true</show_help_on_load>
         <sp_widget/>
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-27 14:14:50</sys_created_on>
         <sys_id>0cc78460dbd7001088282bfa4b961968</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Why do you need this</sys_name>
         <sys_package display_value="CatalogItemstest" source="x_428232_catalogit">c27173d4db57001088282bfa4b961934</sys_package>
         <sys_policy/>
         <sys_scope display_value="CatalogItemstest">c27173d4db57001088282bfa4b961934</sys_scope>
         <sys_update_name>item_option_new_0cc78460dbd7001088282bfa4b961968</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-27 14:20:32</sys_updated_on>
+        <sys_updated_on>2020-02-28 09:23:23</sys_updated_on>
         <table/>
         <tooltip>Insert something</tooltip>
         <type>6</type>

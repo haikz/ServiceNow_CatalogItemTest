@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_ui_policy">
+    <catalog_ui_policy action="DELETE">
+        <active>false</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <catalog_conditions>IO:21121cb4db57401088282bfa4b9619ad!=5^EQ</catalog_conditions>
+        <catalog_item display_value="Need more metal">341e7714db97001088282bfa4b961918</catalog_item>
+        <conditions/>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>false</on_load>
+        <order>100</order>
+        <reverse_if_false>false</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+	alert("No no no no!");
+}]]></script_true>
+        <set_values/>
+        <short_description>Validate service rating</short_description>
+        <sys_class_name>catalog_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-28 11:32:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c2fb60b0dbd7401088282bfa4b9619da</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Validate service rating</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CatalogItemstest" source="x_428232_catalogit">c27173d4db57001088282bfa4b961934</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CatalogItemstest">c27173d4db57001088282bfa4b961934</sys_scope>
+        <sys_update_name>catalog_ui_policy_c2fb60b0dbd7401088282bfa4b9619da</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-28 11:36:02</sys_updated_on>
+        <table/>
+        <ui_type>1</ui_type>
+        <variable_set/>
+        <view/>
+    </catalog_ui_policy>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CatalogItemstest">c27173d4db57001088282bfa4b961934</application>
+        <file_path/>
+        <instance_id>4fd0fd01db6f93c43353f22ebf961973</instance_id>
+        <instance_name>dev67056</instance_name>
+        <name>catalog_ui_policy_c2fb60b0dbd7401088282bfa4b9619da</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_ui_policy"&gt;&lt;catalog_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;catalog_conditions&gt;IO:21121cb4db57401088282bfa4b9619ad!=5^EQ&lt;/catalog_conditions&gt;&lt;catalog_item display_value="Need more metal"&gt;341e7714db97001088282bfa4b961918&lt;/catalog_item&gt;&lt;conditions/&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;false&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;false&lt;/reverse_if_false&gt;&lt;run_scripts&gt;true&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+	alert("No no no no!");
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;Validate service rating&lt;/short_description&gt;&lt;sys_class_name&gt;catalog_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-02-28 11:32:11&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;c2fb60b0dbd7401088282bfa4b9619da&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;Validate service rating&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="CatalogItemstest" source="x_428232_catalogit"&gt;c27173d4db57001088282bfa4b961934&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="CatalogItemstest"&gt;c27173d4db57001088282bfa4b961934&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_ui_policy_c2fb60b0dbd7401088282bfa4b9619da&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-02-28 11:36:02&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;ui_type&gt;1&lt;/ui_type&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_ui_policy&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-879882718</payload_hash>
+        <record_name>Validate service rating</record_name>
+        <reverted_from/>
+        <source>8e7173d4db57001088282bfa4b961936</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-28 11:36:02</sys_created_on>
+        <sys_id>255de8b0dbd7401088282bfa4b96191c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1708b94fe360000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-28 11:36:02</sys_updated_on>
+        <type>Catalog UI Policy</type>
+        <update_guid>ad5de8b010d7401047da144e32b89f1b</update_guid>
+        <update_guid_history>ad5de8b010d7401047da144e32b89f1b:-879882718,3bdc2cb06cd740103294048893e2148f:-975442435,9aac60b091d740108ede2fb74f1744e4:-729129348,8d7c28fcb3974010102e544a91270297:-1449080461</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Validate service rating">227da8f0dbd7401088282bfa4b9619ec</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-28 11:36:39</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy">catalog_ui_policy</sys_db_object>
+        <sys_id>427e635a1b8e48dba1050adf0f957311</sys_id>
+        <sys_metadata>c2fb60b0dbd7401088282bfa4b9619da</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Validate service rating</sys_name>
+        <sys_package display_value="CatalogItemstest" source="x_428232_catalogit">c27173d4db57001088282bfa4b961934</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CatalogItemstest">c27173d4db57001088282bfa4b961934</sys_scope>
+        <sys_scope_delete display_value="">493e5bae4fe6439d9fbf95c6beaaa9c1</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_c2fb60b0dbd7401088282bfa4b9619da</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_c2fb60b0dbd7401088282bfa4b9619da">255de8b0dbd7401088282bfa4b96191c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-28 11:36:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

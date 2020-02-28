@@ -6,7 +6,7 @@
         <applies_sc_task>false</applies_sc_task>
         <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
-        <catalog_conditions>IO:384e8424dbd7001088282bfa4b96194f=true^EQ</catalog_conditions>
+        <catalog_conditions>IO:3931ff68dbd3401088282bfa4b96197d=true^EQ</catalog_conditions>
         <catalog_item display_value="Need more metal">341e7714db97001088282bfa4b961918</catalog_item>
         <conditions/>
         <description/>
@@ -26,22 +26,22 @@
 
 }]]></script_true>
         <set_values/>
-        <short_description>Hide fields if not show mire selected</short_description>
+        <short_description>Set reason optional</short_description>
         <sys_class_name>catalog_ui_policy</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-02-27 14:45:29</sys_created_on>
+        <sys_created_on>2020-02-28 07:25:32</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>4aee0ce4dbd7001088282bfa4b961949</sys_id>
+        <sys_id>fce37ba8dbd3401088282bfa4b961947</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Hide fields if not show mire selected</sys_name>
+        <sys_name>Set reason optional</sys_name>
         <sys_overrides/>
         <sys_package display_value="CatalogItemstest" source="x_428232_catalogit">c27173d4db57001088282bfa4b961934</sys_package>
         <sys_policy/>
         <sys_scope display_value="CatalogItemstest">c27173d4db57001088282bfa4b961934</sys_scope>
-        <sys_update_name>catalog_ui_policy_4aee0ce4dbd7001088282bfa4b961949</sys_update_name>
+        <sys_update_name>catalog_ui_policy_fce37ba8dbd3401088282bfa4b961947</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-27 14:45:29</sys_updated_on>
+        <sys_updated_on>2020-02-28 07:25:32</sys_updated_on>
         <table/>
         <ui_type>0</ui_type>
         <variable_set/>
