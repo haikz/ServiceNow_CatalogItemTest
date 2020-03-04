@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function ($scope,$filter) {
+    var c = this;
+    c.phoneNo = "";
+    c.selectedCountry = "";
+    c.currRegex = null;
+    c.phonePrefix="";
+    c.regexes = [
+        { "country": "CN", "regex": "^\\+861(?:3\\d{3}|5[^4\\D]\\d{2}|8\\d{3}|7(?:[35678]\\d{2}|4(?:0\\d|1[0-2]|9\\d))|9[189]\\d{2}|66\\d{2})\\d{6}$", "cCode": "+861" },
+        { "country": "DK", "regex": "^\\+45\\d{8}$", "cCode": "+45" },
+        { "country": "EE", "regex": "^\\+372[3-9]\\d{6,9}?$", "cCode": "+372" },
+        { "country": "FI", "regex": "^\\+358\\d{5,12}?$", "cCode": "+358" },
+        { "country": "IN", "regex": "^\\+91\\d{7,10}?$", "cCode": "+91" },
+        { "country": "LV", "regex": "^\\+371[2,5-7]\\d{7}?$", "cCode": "+371" },
+        { "country": "LT", "regex": "^\\+370\\d{8}?$", "cCode": "+370" },
+        { "country": "LU", "regex": "^\\+352\\d{6,9}?$", "cCode": "+385" },
+        { "country": "NO", "regex": "^\\+47\\d{8}?$", "cCode": "+47" },
+        { "country": "SE", "regex": "^(\\+46)[1-9](\\d{6,12})$", "cCode": "+46" },
+        { "country": "US", "regex": "^(\\+1)([2-9])(\\d{7,13})$", "cCode": "+1" }
+    ];
+
+    c.NoChanged = function () {
+        $scope.page.field.value = "";
+        $scope.page.field.messages = ""
+        console.log(c.phonePrefix+c.phoneNo)
+        if (! c.phoneNo || ! c.phonePrefix) {            
+            return;            
+        }        
+        if (c.phoneNo[0] === '0') {
+            c.phoneNo = c.phoneNo.slice(1);
+        }
+        
+        if (c.currRegex.test(c.phonePrefix + c.phoneNo)) {
+            $scope.page.field.value = c.phonePrefix + c.phoneNo;            
+            scope.error = false;
+        } else {
+            scope.error = true;
+            $scope.page.field.messages = "Not valid phone no!"
+        }                        
+    }
+
+    c.countryChanged = function () {            
+        var curroCountry = $filter('filter')(c.regexes, { "country": c.selectedCountry })[0];            
+        c.currRegex = RegExp(curroCountry.regex);
+        c.phonePrefix = curroCountry.cCode;
+        c.NoChanged();            
+    }
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>input.currency {
+  text-align: right; 
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>international_phone_no__input</id>
+        <internal>false</internal>
+        <link/>
+        <name>International Phone no. input</name>
+        <option_schema>[{"hint":"Is this input mandatory","name":"requred","section":"Data","default_value":"False","label":"Requred","type":"boolean"}]</option_schema>
+        <public>false</public>
+        <roles/>
+        <script/>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-04 09:27:08</sys_created_on>
+        <sys_id>cecff552db53001088282bfa4b96198b</sys_id>
+        <sys_mod_count>43</sys_mod_count>
+        <sys_name>International Phone no. input</sys_name>
+        <sys_package display_value="CatalogItemstest" source="x_428232_catalogit">c27173d4db57001088282bfa4b961934</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CatalogItemstest">c27173d4db57001088282bfa4b961934</sys_scope>
+        <sys_update_name>sp_widget_cecff552db53001088282bfa4b96198b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-04 14:32:58</sys_updated_on>
+        <template><![CDATA[<div class="row">
+  <div class="col-md-10">
+    <span class="input-group">
+      <select data-ng-model="c.selectedCountry"
+            data-ng-change="c.countryChanged()"
+            data-ng-options="regex.country as regex.country +' ('+ regex.cCode + ')' for regex in c.regexes"            
+            class="form-control"
+            style="width:100px;border-right-width:0px">
+      </select>
+    	<input type="text"
+           data-ng-model="c.phoneNo"
+           data-ng-change="c.NoChanged()"
+           placeholder="{{options.placeholderText}}" 
+           class="form-control ng-valid ng-not-empty ng-dirty ng-valid-parse ng-touched"
+           tooltip=""
+           style="width:220px;border-left-width:0px"> 
+    </span>
+  </div>
+  <!--<div class="col-md-10">
+    <div ng-if="error" class="alert alert-danger" role="alert">Not a valid phone no.</div>
+    <div ng-if="warn_value" class="alert alert-warning" role="alert">${Enter a value from 0 to 100}</div>
+  </div> -->
+</div>]]></template>
+    </sp_widget>
+</record_update>
